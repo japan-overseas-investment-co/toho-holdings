@@ -129,7 +129,12 @@ img {
 .img-title {
     font-size: 14px;
 }
+
 @media only screen and (min-width: 992px){
+    nav {
+       display: none !important;
+    }
+
     #sidebar {
         display: block;
         width: 300px;
